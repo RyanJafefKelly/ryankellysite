@@ -1,6 +1,6 @@
 {
   "name": "ryankellysite",
-  "homepage": "http://ryankellyaus.com",
+  "homepage": "https://ryankellyaus.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
