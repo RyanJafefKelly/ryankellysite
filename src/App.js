@@ -1,19 +1,20 @@
 import React from 'react';
-import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
-import HomePage from './routes/HomePage';
-import Projects from './routes/Projects';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Projects from './pages/Projects';
+import Topbar from './Topbar';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <React.Suspense>
+        <Topbar />
         <Switch>
-          <Route exact path="/" name="Homepage" render={HomePage} />
-          <Route path="/projects" name="Projects" render={Projects} />
+          <Route exact path="/" name="HomePage" component={HomePage} />
+          <Route path="/projects" name="Projects" component={Projects} />
         </Switch>
       </React.Suspense>
-    </HashRouter>
+    </Router>
   );
 }
 
