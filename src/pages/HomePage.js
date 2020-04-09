@@ -1,6 +1,9 @@
 import React from 'react';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import { Typography, Link } from '@material-ui/core';
+import RoundImage from 'react-rounded-image';
+import Pdf from '../samplepdf.pdf';
+import Photo from '../rkimage.jpg';
 
 const useStyles = makeStyles({
     heading: {
@@ -33,12 +36,22 @@ function HomePage() {
     <React.Fragment>
         <div className={classes.backgroundDiv}>
             <Typography className={classes.heading}>Ryan Kelly</Typography>
+            <div     
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    }}>
+                <RoundImage 
+                    image={Photo}
+                />
+            </div>
             <Typography className={classes.body}>ryan@kiiii.com</Typography>
             <Typography className={classes.body}>Developer, Moreton Blue Software</Typography>
             <Typography className={classes.body}>Bachelor of Maths/IT, QUT 2016-2020 </Typography>
             <div style={{textAlign: 'center'}}>
                 <Typography className={classes.bodyInline}>
-                    <Link href="#" onClick={preventDefault} color="inherit">
+                    <Link href= { Pdf } target="_blank" color="inherit">
                         Résumé                   
                     </Link>
                 </Typography>
