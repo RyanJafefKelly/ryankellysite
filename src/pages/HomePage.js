@@ -4,6 +4,10 @@ import { Typography, Link } from '@material-ui/core';
 import RoundImage from 'react-rounded-image';
 import Pdf from '../samplepdf.pdf';
 import Photo from '../rkimage.jpg';
+// import Container from 'react-bootstrap/Container';  
+// import Row from 'react-bootstrap/Row';  
+// import Column from 'react-bootstrap/Column';  
+
 
 const useStyles = makeStyles({
     heading: {
@@ -64,7 +68,9 @@ function HomePage() {
                 </Typography>
             </div>
         </div>
+        {/* <Container>
 
+        </Container> */}
     </React.Fragment>
     );
 };
