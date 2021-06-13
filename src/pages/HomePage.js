@@ -2,7 +2,7 @@ import React from 'react';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import { Typography, Link } from '@material-ui/core';
 import RoundImage from 'react-rounded-image';
-import Pdf from '../samplepdf.pdf';
+import Pdf from '../2021_resume.pdf';
 import Photo from '../rkimage.jpg';
 // import Container from 'react-bootstrap/Container';  
 // import Row from 'react-bootstrap/Row';  
@@ -51,8 +51,10 @@ function HomePage() {
                 />
             </div>
             <Typography className={classes.body}>ryan@kiiii.com</Typography>
-            <Typography className={classes.body}>Developer, Moreton Blue Software</Typography>
+            <Typography className={classes.body}>Research Assistant, QUT</Typography>
+            <Typography className={classes.body}>Former Web Developer, Moreton Blue Software</Typography>
             <Typography className={classes.body}>Bachelor of Maths/IT, QUT 2016-2020 </Typography>
+            <Typography className={classes.body}>Master of Philosophy (Statistics), QUT 2020-2021 </Typography>
             <div style={{textAlign: 'center'}}>
                 <Typography className={classes.bodyInline}>
                     <Link href= { Pdf } target="_blank" color="inherit">

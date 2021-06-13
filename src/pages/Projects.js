@@ -5,8 +5,8 @@ import ProjectItem from '../components/ProjectItem';
 const Projects = () => {
 
     const projects = [
-        {id:0, name:'test0', description:'testdescription', link:'www.google.com'},
-        {id:1, name:'test1', description:'testdescriptionv2', link:'www.google.com'}
+        {id:0, name:'Chess AI', description:'Chess engine - Very in progress experiments with board representation, search, evaluation, opening book and endgame tablebases.', link:'https://github.com/RyanJafefKelly/rypyengine'},
+        {id:1, name:'Raytracer', description:'Keeping C++ and computer graphics knowledge fresh.', link:'https://github.com/RyanJafefKelly/raytracer2021'}
     ];
 
     return(<React.Fragment>
