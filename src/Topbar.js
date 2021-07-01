@@ -1,8 +1,7 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { useHistory } from 'react-router-dom';
-import { makeStyles, Typography, Button, Box, Link } from '@material-ui/core';
+import { makeStyles, Typography, Box, Link } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {

@@ -5,8 +5,10 @@ import ProjectItem from '../components/ProjectItem';
 const Projects = () => {
 
     const projects = [
-        {id:0, name:'Chess AI', description:'Chess engine - Very in progress experiments with board representation, search, evaluation, opening book and endgame tablebases.', link:'https://github.com/RyanJafefKelly/rypyengine'},
-        {id:1, name:'Raytracer', description:'Keeping C++ and computer graphics knowledge fresh.', link:'https://github.com/RyanJafefKelly/raytracer2021'}
+        {id:0, name:'BSL in ELFI', description:'Adding Bayesian Synthetic Likelihood Methods into ELFI', link:'https://elfi.readthedocs.io/en/latest/'},
+        {id:1, name:'Advanced specifications for xlogit', description:'Add in options to estimate lambda for boxcox transformation and estimate correlations between random parameters for multinomial and mixed logit models', link:'https://github.com/arteagac/xlogit'},
+        {id:2, name:'Chess AI', description:'Chess engine - Very in progress experiments with board representation, search, evaluation, opening book and endgame tablebases.', link:'https://github.com/RyanJafefKelly/rypyengine'},
+        {id:3, name:'Raytracer', description:'Keeping C++ and computer graphics knowledge fresh.', link:'https://github.com/RyanJafefKelly/raytracer2021'}
     ];
 
     return(<React.Fragment>

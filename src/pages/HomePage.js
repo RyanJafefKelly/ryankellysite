@@ -34,7 +34,7 @@ const useStyles = makeStyles({
 
 function HomePage() {
     const classes = useStyles();
-    const preventDefault = (event) => event.preventDefault();
+    // const preventDefault = (event) => event.preventDefault();
 
     return (
     <React.Fragment>
@@ -51,10 +51,10 @@ function HomePage() {
                 />
             </div>
             <Typography className={classes.body}>ryan@kiiii.com</Typography>
+            <Typography className={classes.body}>Master of Philosophy (Statistics), QUT 2020-2021 </Typography>
+            <Typography className={classes.body}>Bachelor of Maths/IT, QUT 2016-2020 </Typography>
             <Typography className={classes.body}>Research Assistant, QUT</Typography>
             <Typography className={classes.body}>Former Web Developer, Moreton Blue Software</Typography>
-            <Typography className={classes.body}>Bachelor of Maths/IT, QUT 2016-2020 </Typography>
-            <Typography className={classes.body}>Master of Philosophy (Statistics), QUT 2020-2021 </Typography>
             <div style={{textAlign: 'center'}}>
                 <Typography className={classes.bodyInline}>
                     <Link href= { Pdf } target="_blank" color="inherit">
